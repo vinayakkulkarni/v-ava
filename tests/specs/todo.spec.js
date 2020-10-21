@@ -1,6 +1,6 @@
 import { mount } from '@vue/test-utils';
 import test from 'ava';
-import TodoApp from '../src/components/TodoApp.vue';
+import TodoApp from '@/components/TodoApp.vue';
 
 let wrapper;
 
