@@ -1,7 +1,8 @@
 module.exports = {
+  require: ['./tests/setup.js'],
   ignoredByWatcher: ['!**/*.{js,vue}'],
-  files: ['./specs/**/*'],
-  snapshotDir: './specs/snapshots',
+  files: ['./tests/specs/**/*'],
+  snapshotDir: './tests/specs/snapshots',
   babel: true,
   tap: false,
   verbose: true,
